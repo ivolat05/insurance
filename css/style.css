@@ -608,3 +608,210 @@ li {
         line-height: 29px;
     }
 }
+
+/*--------------limitation--------------*/
+
+.limitation {}
+
+.conteiner {}
+
+.limitation__title {
+    max-width: 1190px;
+    margin: 0 auto;
+
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 58px;   
+    color: #002B3D;
+
+    padding-bottom: 14px;
+
+    border-bottom: 2px solid #B8D1FD;
+}
+
+.limitation-one {
+    position: relative;
+    
+}
+
+.limitation-one img {
+    position: relative;
+    z-index: 1;
+}
+
+.limitation-one::after {
+    content: url('../images/passport__oval.svg');
+    position: absolute;
+    left: 38px;
+    top: 65px;
+    z-index: 0;
+}
+
+.limitation-two {
+    position: relative;
+    
+}
+
+.limitation-two img {
+    position: relative;
+    z-index: 1;
+}
+
+.limitation-two::after {
+    content: url('../images/passport__oval.svg');
+    position: absolute;
+    left: 8px;
+    top: 29px;
+    z-index: 0;
+}
+
+.limitation__wrapp {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 25px 0 122px;
+}
+
+.limitation__wrapp-inner {
+    display: flex;
+}
+
+.limitation__wrapp-img {}
+
+.limitation__wrapp-content {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #002B3D;
+
+    max-width: 382px;
+
+    padding-left: 50px;
+}
+
+/*-------------media limitation-------------*/
+@media(max-width: 1020px) {
+    .limitation__title {
+        text-align: center;
+    }
+
+    .limitation__wrapp {
+        display: block;
+    }
+
+    .limitation__wrapp-inner{
+        display: block;
+        text-align: center;
+    }
+
+    .limitation__wrapp-content {
+        padding: 0;
+        margin: 15px auto;
+    }
+
+    .limitation-one::after {        
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .limitation-two::after {        
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/*--------polis------------*/
+.polis {}
+
+.conteiner {}
+
+.polis__wrapp {
+    background: url('../images/polis__oval 18.svg') no-repeat,
+                url('../images/polist__back-one.svg') no-repeat left 1px bottom 1px,
+                url('../images/polis__back-two.svg') no-repeat right 90px bottom 1px,
+                #0098ED url('../images/polisy__oval-two.svg') no-repeat right 0 bottom 1px;
+    
+    border-radius: 20px;
+    padding-bottom: 100px;
+}
+
+
+.polis__wrapp-title {
+    padding: 60px 0 45px;
+
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 58px;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+
+.polis__wrapp-title p span {
+    font-weight: 900;
+}
+
+.polis__wrapp-conteriner {
+    max-width: 680px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 20px;
+
+    display: flex;
+    
+}
+
+
+
+.polis__wrapp-num {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    padding: 4px 12px;
+    margin: 40px 30px;
+
+    background:#0098ED;
+}
+
+.polis__wrapp-content {
+    padding: 41px 0 53px;
+}
+
+.polist__wrapp-title,
+.polis__wrapp-subtitle {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 36px;
+    color: #002B3D;
+}
+
+.polis__wrapp-subtitle {
+    color: #0098ED;
+}
+
+.polis__wrapp-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #002B3D;
+}
+
+.polis__wrapp-text p {
+    padding: 10px 0;
+}
+
+.polis__wrapp-text a {
+    color: #0098ED;
+}
