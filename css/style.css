@@ -280,35 +280,34 @@ li {
 /*-------------main-------------*/
 
 .main__wrapper {
-    max-width: 1290px;
-    
+    max-width: 1290px;    
     background: 
     url('../images/main__back-one.svg') no-repeat left 0 top 164px/ 7%,
-    url('../images/main__back-two.svg') no-repeat left 95px bottom 328px/ 3%,
-    url('../images/main__oval.png') no-repeat left 0 bottom 0/ 49%,
     url('../images/main__oval-two.svg') no-repeat right 0 bottom 0/ 30%,
-    url('../images/main__back-three.svg') no-repeat right -4px bottom 0/ 8%;
-    background-color: #F8F8F8;
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
+    #F8F8F8 url('../images/main__back-three.svg') no-repeat right -4px bottom 0/ 8%;
+  
+    margin-top: 10px; 
     border-radius: 20px;
     overflow: hidden;
 }
 
 .main__box {
-    padding-top: 139px;
-    max-width: 423px;
-    margin-left: auto;
-    margin-right: 0;   
+    display: flex;
+    float: right;
 }
 
+.main__box-conteiner {
+    padding-top: 138px;
+}
+
+
+
 .main__box-subtitle {
-    
     width: 165px;
     padding: 5px 15px;
     border: 1px solid #0098ED;
     border-radius: 20px;
+
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -334,7 +333,7 @@ li {
 .main__box-text {
     max-width: 390px;
 
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 21px;
     line-height: 32px;
@@ -366,8 +365,9 @@ li {
     left: 13px ;
 }
 
-.main__holder {
-    max-width: 711px;
+.main__holder {    
+    display: flex;
+    float: left;
 
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -376,10 +376,16 @@ li {
     color: #002B3D;
 }
 
-.main__holder-img img{
-    float: right;
-    padding-bottom: 120px;
+.main__holder-img {
+    padding-top: 125px;
 }
+
+
+.main__holder-conteiner {
+    padding-top: 115px;
+    padding-right: 10px;
+}
+
 
 .main__holder-text {
     max-width: 587px;
@@ -395,53 +401,74 @@ li {
 }
 
 /*----------media main---------*/
-@media(max-width: 1185px) {
+@media(max-width: 1243px) {
     .main__box {
         margin-left: 70px;
-    }
-
-    .main__holder-img img {
-        width: 100%;
-    }
+    } 
 }
 
-@media(max-width: 930px) {    
-    .main__wrapper {
+
+@media (max-width: 1160px) {
+    .main__box,
+    .main__holder {
         display: block;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
         text-align: center;
     }
+    
 
-    .main__box-subtitle {
-        margin: 0 auto;
-    }
 
+    .main__box-conteiner,
+    .main__holder-conteiner,
+    .main__box-subtitle,
     .main__box-btn {
-        margin: 40px auto;
-    }
-
-    .main__box {
-        margin: 0 auto;
-    }
-    .main__holder {      
-        margin: 30px auto;
+        display: inline-block;
     }
     
-    .main__holder-text {
-        margin: 0 auto;
+    .main__holder-img {
+        display: none;
     }
-
-    .main__holder-slogan {
-        margin: 20px auto 50px;
+    .main__box-img img {
+        width: 100%;
+        padding-top: 30px;
     }
 }
 
-@media (max-width: 475px) {        
+@media (max-width: 475px) { 
+    .main__wrapper {
+        background:
+            none,
+            url('../images/main__oval-two.svg') no-repeat right 0 bottom 0/ 30%,
+            #F8F8F8 url('../images/main__back-three.svg') no-repeat right -4px bottom 0/ 8%;
+
+    }
+
     .main__box-active {
         opacity: 0;
+    }  
+    .main__box-subtitle {
+        width: 120px;
+        font-size: 12px;
+        line-height: 10px;
     }
-    .main__wrapper-active {
-        background: none;
-        background-color: #F8F8F8;
+
+    .main__box-title {
+        font-size: 35px;
+        line-height: 47px;
+    }
+
+    .main__box-text {
+        max-width: 390px;
+        font-size: 16px;
+        
+    }
+
+    .main__holder {
+        padding:0 10px;
+        font-size: 16px;
+        line-height: 25px;
     }
 }
 
@@ -721,10 +748,9 @@ li {
     }
 }
 
-/*--------polis------------*/
-.polis {}
 
-.conteiner {}
+/*---------без адаптива-------*/
+/*--------polis------------*/
 
 .polis__wrapp {
     background: url('../images/polis__oval 18.svg') no-repeat,
@@ -735,7 +761,6 @@ li {
     border-radius: 20px;
     padding-bottom: 100px;
 }
-
 
 .polis__wrapp-title {
     padding: 60px 0 45px;
@@ -764,8 +789,6 @@ li {
     
 }
 
-
-
 .polis__wrapp-num {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -788,6 +811,8 @@ li {
 
 .polist__wrapp-title,
 .polis__wrapp-subtitle {
+    max-width: 420px;
+
     font-family: 'Merriweather', serif;
     font-style: italic;
     font-weight: 900;
@@ -801,6 +826,8 @@ li {
 }
 
 .polis__wrapp-text {
+    max-width: 520px;
+
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 17px;
@@ -815,3 +842,44 @@ li {
 .polis__wrapp-text a {
     color: #0098ED;
 }
+
+/*------------write---------*/
+
+.write__inner {
+    height: 579px;
+    
+    background: url('../images/write__oval.svg') no-repeat center center;
+}
+
+
+.write__inner-title {  
+    padding-top: 235px;  
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 58px;
+    color: #002B3D;
+}
+
+.write__inner-btn a {
+    display: block;
+    width: 212px;
+
+    padding: 22px 30px;
+    margin: 0 auto;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;    
+    color: #FFFFFF;
+
+    background: #0098ED;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+/*----------media write-------------*/
