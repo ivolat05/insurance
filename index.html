@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,400;1,900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
@@ -611,681 +612,688 @@
       <div class="price__wrapper">
         <!--table__pop-up-->
         <div class="price__wrapp-table">
-          <div class="table__pop-up">
-            <div class="table__pop-title">
-              <h3>
-                Стоимость для возрастной категории
-              </h3>
+            <div id="popup__quest" class='white-popup mfp-hide'>
+              <div class="">
+                <p>
+                  
+                </p>
+              </div>
             </div>
-            <div class="table__pop-content table__pop-contents">
-              <p>
-                0 - 17 лет
-                <span style='padding-left: 175px;'>
-                  1 000 ₽
-                </span>
-              </p>
-              <p>
-                18 - 60 лет
-                <span style='padding-left: 166px;'>
-                  5 000 ₽
-                </span>
-              </p>
-              <p>
-                продление до 75 лет
-                <span style='padding-left: 70px;'>
-                  7 000 ₽
-                </span>
-              </p>
-            </div>
-          </div>
-      
-          <div class="table">
-            <div class="table__head">
-              <div class="table__line table__line-head" id='line__margin'>
-                <div class="table__head-one"></div>
-                <div class="table__head-column">
-                  <div class="table__column-box">
-                    <div class="table__column-title">
-                      <p>
-                        РОССИЯ
-                      </p>                      
-                    </div>
-                    <div class="table__column-text">
-                      <p>
-                        Онкострахование 
-                      </p>
-                    </div>
-                  </div>                  
+            <div id="text-popup" class="mfp-hide">
+              <div class="table__pop-up">
+                <div class="table__pop-title">
+                  <h3>
+                    Стоимость для возрастной категории
+                  </h3>
                 </div>
-                <div class="table__head-column">
-                  <div class="table__column-box">
-                    <div class="table__column-title">
-                      <p>
-                        МИР
-                      </p>                      
-                    </div>
-                    <div class="table__column-text">
-                      <p>
-                        Онкострахование 
-                      </p>
-                    </div>
-                  </div>                  
+                <div class="table__pop-content table__pop-contents">
+                  <p>
+                    0 - 17 лет
+                    <span style='padding-left: 175px;'>
+                      1 000 ₽
+                    </span>
+                  </p>
+                  <p>
+                    18 - 60 лет
+                    <span style='padding-left: 166px;'>
+                      5 000 ₽
+                    </span>
+                  </p>
+                  <p>
+                    продление до 75 лет
+                    <span style='padding-left: 70px;'>
+                      7 000 ₽
+                    </span>
+                  </p>
                 </div>
-                <div class="table__head-column">
-                  <div class="table__column-box">
-                    <div class="table__column-title">
-                      <p>
-                        РОССИЯ
-                      </p>                      
-                    </div>
-                    <div class="table__column-text">
-                      <p>
-                        Онкострахование 
-                      </p>
-                    </div>
-                    <div class="table__column-text column__text-next">
-                      <p>
-                        Критические заболевания 
-                      </p>
-                    </div>
-                  </div>                  
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-box">
-                    <div class="table__column-title">
-                      <p>
-                        МИР   
-                      </p>                      
-                    </div>
-                    <div class="table__column-text">
-                      <p>
-                        Онкострахование 
-                      </p>
-                    </div>
-                    <div class="table__column-text column__text-next">
-                      <p>
-                        Критические заболевания 
-                      </p>
-                    </div>
-                  </div>                  
-                </div>   
               </div>
-              <div class="table__line" id='scrollStart' >
-                <div class="table__head-one"></div>
-                <div class="table__head-column" id='column__height'>
-                  <div class="table__column-inner">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div> 
+            </div>      
+            <div class="table">
+              <div class="table__head">
+                <div class="table__line table__line-head" id='line__margin'>
+                  <div class="table__head-one"></div>
+                  <div class="table__head-column">
+                    <div class="table__column-box">
+                      <div class="table__column-title">
+                        <p>
+                          РОССИЯ
+                        </p>                      
+                      </div>
+                      <div class="table__column-text">
+                        <p>
+                          Онкострахование 
+                        </p>
+                      </div>
+                    </div>                  
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-box">
+                      <div class="table__column-title">
+                        <p>
+                          МИР
+                        </p>                      
+                      </div>
+                      <div class="table__column-text">
+                        <p>
+                          Онкострахование 
+                        </p>
+                      </div>
+                    </div>                  
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-box">
+                      <div class="table__column-title">
+                        <p>
+                          РОССИЯ
+                        </p>                      
+                      </div>
+                      <div class="table__column-text">
+                        <p>
+                          Онкострахование 
+                        </p>
+                      </div>
+                      <div class="table__column-text column__text-next">
+                        <p>
+                          Критические заболевания 
+                        </p>
+                      </div>
+                    </div>                  
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-box">
+                      <div class="table__column-title">
+                        <p>
+                          МИР   
+                        </p>                      
+                      </div>
+                      <div class="table__column-text">
+                        <p>
+                          Онкострахование 
+                        </p>
+                      </div>
+                      <div class="table__column-text column__text-next">
+                        <p>
+                          Критические заболевания 
+                        </p>
+                      </div>
+                    </div>                  
+                  </div>   
                 </div>
-                <div class="table__head-column">
-                  <div class="table__column-inner">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-inner">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-inner">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div>
-                </div>   
-              </div>                          
-            </div>
-            <div class="table__body"> 
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Верификация диагноза
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      «Второе мнение»
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Консьерж-сопровождение
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Психологическая поддержка
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Оплата дороги и проживания
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line table__one-h3">
-                <div class="table__head-one">
-                  <div class="table__one-title table__one-h3">
-                    <p>
-                      ЗАБОЛЕВАНИЯ
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column"></div>
-                <div class="table__head-column"></div>                
-                <div class="table__head-column"></div>
-                <div class="table__head-column"></div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Онкология
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Сердечно-сосудистая хирургия
-                      <span>
-                        <a href="#">
-                          <img src="images/table__quest.svg" alt="">
+                <div class="table__line" id='scrollStart' >
+                  <div class="table__head-one"></div>
+                  <div class="table__head-column" id='column__height'>
+                    <div class="table__column-inner">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
                         </a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Нейрохирургия
-                      <span>
+                      </div>
+                      <div class="table__inner-btn">
                         <a href="#">
-                          <img src="images/table__quest.svg" alt="">
+                          купить
                         </a>
-                      </span>
-                    </p>
+                      </div>
+                    </div> 
                   </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Трансплантация костного мозга
-                      <span>
+                  <div class="table__head-column">
+                    <div class="table__column-inner">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
+                        </a>
+                      </div>
+                      <div class="table__inner-btn">
                         <a href="#">
-                          <img src="images/table__quest.svg" alt="">
+                          купить
                         </a>
-                      </span>
-                    </p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
+                  <div class="table__head-column">
+                    <div class="table__column-inner">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
+                        </a>
+                      </div>
+                      <div class="table__inner-btn">
+                        <a href="#">
+                          купить
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table__v.svg" alt="">
-                  </div>
-                </div>   
+                  <div class="table__head-column">
+                    <div class="table__column-inner">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
+                        </a>
+                      </div>
+                      <div class="table__inner-btn">
+                        <a href="#">
+                          купить
+                        </a>
+                      </div>
+                    </div>
+                  </div>   
+                </div>                          
               </div>
-              <div class="table__line table__one-h3">
-                <div class="table__head-one">
-                  <div class="table__one-title ">
-                    <p>
-                      СТРАНЫ ДЛЯ ЛЕЧЕНИЯ
-                    </p>
+              <div class="table__body"> 
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Верификация диагноза
+                      </p>
+                    </div>
                   </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
                 </div>
-                <div class="table__head-column"></div>
-                <div class="table__head-column"></div>                
-                <div class="table__head-column"></div>
-                <div class="table__head-column"></div>   
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        «Второе мнение»
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Консьерж-сопровождение
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Психологическая поддержка
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Оплата дороги и проживания
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line table__one-h3">
+                  <div class="table__head-one">
+                    <div class="table__one-title table__one-h3">
+                      <p>
+                        ЗАБОЛЕВАНИЯ
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column"></div>
+                  <div class="table__head-column"></div>                
+                  <div class="table__head-column"></div>
+                  <div class="table__head-column"></div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Онкология
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Сердечно-сосудистая хирургия
+                        <span>
+                          <a href="#popup__quest" class="popup-content">
+                            <img src="images/table__quest.svg" alt="">
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Нейрохирургия
+                        <span>
+                          <a href="#popup__quest" class="popup-content">
+                            <img src="images/table__quest.svg" alt="">
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Трансплантация костного мозга
+                        <span>
+                          <a href="#popup__quest" class="popup-content">
+                            <img src="images/table__quest.svg" alt="">
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table__v.svg" alt="">
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line table__one-h3">
+                  <div class="table__head-one">
+                    <div class="table__one-title ">
+                      <p>
+                        СТРАНЫ ДЛЯ ЛЕЧЕНИЯ
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column"></div>
+                  <div class="table__head-column"></div>                
+                  <div class="table__head-column"></div>
+                  <div class="table__head-column"></div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Онкология
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <p>
+                        Россия
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content content__two">
+                      <p>
+                        Россия, Израиль, Испания, Южная Корея
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <p>
+                        Россия
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content content__two">
+                      <p>
+                        Россия, Израиль, Испания, Южная Корея
+                      </p>
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Сердечно-сосудистая хирургия, нейрохирургия
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <p>
+                        Россия
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column" >
+                    <div class="table__column-content content__two">
+                      <p>
+                        Россия, Израиль, Испания, Южная Корея
+                      </p>
+                    </div>
+                  </div>   
+                </div>
+                <div class="table__line" >
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Трансплантация констного мозга
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <img src="images/table–.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="table__head-column">
+                    <div class="table__column-content">
+                      <p>
+                        Весь мир
+                      </p>
+                    </div>
+                  </div>
+                  <div class="table__head-column" id ="scrollFinish">
+                    <div class="table__column-content">
+                      <p>
+                        Весь мир
+                      </p>
+                    </div>
+                  </div>   
+                </div>
               </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Онкология
-                    </p>
+              <div class="table__foter">
+                <div class="table__line">
+                  <div class="table__head-one">
+                    <div class="table__one-title">
+                      <p>
+                        Стоимость (в год)
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <p>
-                      Россия
-                    </p>
+                  <div class="table__head-column">
+                    <div class="table__column-inner table__column-two">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
+                        </a>
+                      </div>
+                      <div class="table__inner-btn">
+                        <a href="#">
+                          купить
+                        </a>
+                      </div>
+                    </div> 
                   </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content content__two">
-                    <p>
-                      Россия, Израиль, Испания, Южная Корея
-                    </p>
+                  <div class="table__head-column">
+                    <div class="table__column-inner table__column-two">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
+                        </a>
+                      </div>
+                      <div class="table__inner-btn">
+                        <a href="#">
+                          купить
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <p>
-                      Россия
-                    </p>
+                  <div class="table__head-column">
+                    <div class="table__column-inner table__column-two">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
+                        </a>
+                      </div>
+                      <div class="table__inner-btn">
+                        <a href="#">
+                          купить
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content content__two">
-                    <p>
-                      Россия, Израиль, Испания, Южная Корея
-                    </p>
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Сердечно-сосудистая хирургия, нейрохирургия
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <p>
-                      Россия
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column" >
-                  <div class="table__column-content content__two">
-                    <p>
-                      Россия, Израиль, Испания, Южная Корея
-                    </p>
-                  </div>
-                </div>   
-              </div>
-              <div class="table__line" >
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Трансплантация констного мозга
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <img src="images/table–.svg" alt="">
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-content">
-                    <p>
-                      Весь мир
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column" id ="scrollFinish">
-                  <div class="table__column-content">
-                    <p>
-                      Весь мир
-                    </p>
-                  </div>
-                </div>   
+                  <div class="table__head-column">
+                    <div class="table__column-inner table__column-two">
+                      <div class="table__inner-title">
+                        <h3>
+                          5 000 ₽
+                        </h3>
+                      </div>
+                      <div class="table__inner-link">
+                        <a href="#text-popup" class="popup-content">
+                          Возрастные категории
+                        </a>
+                      </div>
+                      <div class="table__inner-btn">
+                        <a href="#">
+                          купить
+                        </a>
+                      </div>
+                    </div>
+                  </div>   
+                </div> 
               </div>
             </div>
-            <div class="table__foter">
-              <div class="table__line">
-                <div class="table__head-one">
-                  <div class="table__one-title">
-                    <p>
-                      Стоимость (в год)
-                    </p>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-inner table__column-two">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div> 
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-inner table__column-two">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-inner table__column-two">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="table__head-column">
-                  <div class="table__column-inner table__column-two">
-                    <div class="table__inner-title">
-                      <h3>
-                        5 000 ₽
-                      </h3>
-                    </div>
-                    <div class="table__inner-link">
-                      <p>
-                        Возрастные категории
-                      </p>
-                    </div>
-                    <div class="table__inner-btn">
-                      <a href="#">
-                        купить
-                      </a>
-                    </div>
-                  </div>
-                </div>   
-              </div> 
-            </div>
-          </div>
-          
 
         </div>
         <div class="price__wrapp-fon">
@@ -1435,106 +1443,111 @@
   </div>
 </section>
 
+
+
 <section class="review">
-  <div class="conteiner">
-    <div class="wrapp__title" style="text-align: center;">
+  <div class="conteiner review__background">
+    <div class="review__wr wrapp__title" style="text-align: center;">
       <h3>
         Отзывы          
       </h3>
     </div>
     <div class="review__wrapp">
-      <div class="review__wrapp-box">
-        <img src="images/rew__fon.jpg" alt="">
-        <div class="review__wrapp-title">
-          <h3>
-            Елена, 42 года
-          </h3>
+      <div>
+        <div class="review__wrapp-box">
+          <img src="images/rew__fon.jpg" alt="">
+          <div class="review__wrapp-title review__content-img">
+            <h3>
+              Елена, 42 года
+            </h3>
+          </div>
+          <div class="review__wrapp-slogan review__content-img">
+            <p>
+              Столкнулась с онкологией в прошлом году. 
+            </p>
+          </div>
+          <div class="review__wrapp-text">
+            <p>
+              Онкостраховка очень помогла в плане 
+              сопровождения клиники, врачей и лечения. 
+              Это те моменты, по которым заболевший часто 
+              теряется. Лечение заняло полгода, на работе 
+              не отразилось. Поддержка семьи, руководителя 
+              и коллег, которые были в курсе, была очень важна.
+            </p>
+          </div>        
         </div>
-        <div class="review__wrapp-slogan">
-          <p>
-            Столкнулась с онкологией в прошлом году. 
-          </p>
+        <div class="review__wrapp-box">       
+          <div class="review__wrapp-title">
+            <h3>
+              Олеся, 30 лет
+            </h3>
+          </div>
+          <div class="review__wrapp-slogan">
+            <p>
+              Застраховала себя и маму — чувствую себя спокойнее. 
+            </p>
+          </div>
+          <div class="review__wrapp-text">
+            <p>
+              Мамина мама и все ее ближайшие родственники умерли от 
+              рака, поэтому мы переживаем за себя. Посчитала, что 
+              если я буду страховать 20 лет себя и маму, то потрачу 
+              200 000 рублей — явно дешевле, чем в моменте решать 
+              проблему онкологии, если она наступит.
+            </p>
+          </div>        
         </div>
-        <div class="review__wrapp-text">
-          <p>
-            Онкостраховка очень помогла в плане 
-            сопровождения клиники, врачей и лечения. 
-            Это те моменты, по которым заболевший часто 
-            теряется. Лечение заняло полгода, на работе 
-            не отразилось. Поддержка семьи, руководителя 
-            и коллег, которые были в курсе, была очень важна.
-          </p>
-        </div>        
       </div>
-      <div class="review__wrapp-box">       
-        <div class="review__wrapp-title">
-          <h3>
-            Олеся, 30 лет
-          </h3>
+      <div>
+        <div class="review__wrapp-box">       
+          <div class="review__wrapp-title">
+            <h3>
+              Татьяна, 56 лет
+            </h3>
+          </div>
+          <div class="review__wrapp-slogan">
+            <p>
+              Моя дочка купила мне такую страховку. Сказала, что 
+              этот полис она будет продлять и оплачивать всю мою жизнь.
+            </p>
+          </div>
+          <div class="review__wrapp-text">
+            <p>
+              Если я заболею онкологическим заболеванием, то меня не 
+              бросят, а будут лечить, будет онкопсихолог и реабилитация. 
+              Наше поколение воспитано жестокими матерями, а мы смогли 
+              дать безусловную любовь своим детям, и мне теперь спокойно, 
+              надежно, комфортно. Я знаю, что меня не бросят в трудную 
+              минуту. Любите жизнь, себя и своих детей, поддерживайте их, 
+              не бейте и не ругайте.
+            </p>
+          </div>        
         </div>
-        <div class="review__wrapp-slogan">
-          <p>
-            Застраховала себя и маму — чувствую себя спокойнее. 
-          </p>
+        <div class="review__wrapp-box">       
+          <div class="review__wrapp-title">
+            <h3>
+              Екатерина, 28 лет
+            </h3>
+          </div>
+          <div class="review__wrapp-slogan">
+            <p>
+              Рак молодеет, про это много сейчас говорят. Мне кажется, 
+              сейчас почти у любого найдутся знакомые люди, у которых 
+              была онкология.
+            </p>
+          </div>
+          <div class="review__wrapp-text">
+            <p>
+              У меня есть, причем среди ровесников. Помню, навещала друга 
+              в онкологическом отделении, такое прям тяжелое ощущение было 
+              от всего этого. И вот думаешь: где гарантии, что меня это обойдет 
+              стороной? Хочется надеяться на авось, конечно, но я лучше сейчас 
+              куплю полис, чем потом буду кусать локти.
+            </p>
+          </div>        
         </div>
-        <div class="review__wrapp-text">
-          <p>
-            Мамина мама и все ее ближайшие родственники умерли от 
-            рака, поэтому мы переживаем за себя. Посчитала, что 
-            если я буду страховать 20 лет себя и маму, то потрачу 
-            200 000 рублей — явно дешевле, чем в моменте решать 
-            проблему онкологии, если она наступит.
-          </p>
-        </div>        
       </div>
-      <div class="review__wrapp-box">       
-        <div class="review__wrapp-title">
-          <h3>
-            Татьяна, 56 лет
-          </h3>
-        </div>
-        <div class="review__wrapp-slogan">
-          <p>
-            Моя дочка купила мне такую страховку. Сказала, что 
-            этот полис она будет продлять и оплачивать всю мою жизнь.
-          </p>
-        </div>
-        <div class="review__wrapp-text">
-          <p>
-            Если я заболею онкологическим заболеванием, то меня не 
-            бросят, а будут лечить, будет онкопсихолог и реабилитация. 
-            Наше поколение воспитано жестокими матерями, а мы смогли 
-            дать безусловную любовь своим детям, и мне теперь спокойно, 
-            надежно, комфортно. Я знаю, что меня не бросят в трудную 
-            минуту. Любите жизнь, себя и своих детей, поддерживайте их, 
-            не бейте и не ругайте.
-          </p>
-        </div>        
-      </div>
-      <div class="review__wrapp-box">       
-        <div class="review__wrapp-title">
-          <h3>
-            Екатерина, 28 лет
-          </h3>
-        </div>
-        <div class="review__wrapp-slogan">
-          <p>
-            Рак молодеет, про это много сейчас говорят. Мне кажется, 
-            сейчас почти у любого найдутся знакомые люди, у которых 
-            была онкология.
-          </p>
-        </div>
-        <div class="review__wrapp-text">
-          <p>
-            У меня есть, причем среди ровесников. Помню, навещала друга 
-            в онкологическом отделении, такое прям тяжелое ощущение было 
-            от всего этого. И вот думаешь: где гарантии, что меня это обойдет 
-            стороной? Хочется надеяться на авось, конечно, но я лучше сейчас 
-            куплю полис, чем потом буду кусать локти.
-          </p>
-        </div>        
-      </div>
-      
     </div>
     <div class="review__btn">
       <a href="#">Загрузить еще отзывы</a>
@@ -1542,9 +1555,88 @@
   </div>
 </section>
 
+<div class="answers">
+  <div class="conteiner">
+    <div class="answer__title limitation__title">
+      <h2>
+        Вопросы и ответы
+      </h2>
+    </div>
+  
+    <div class="answers__wrapp">
+      <div class="answer__accordion">      
+        <button class="accordion">
+          Зачем обращаться в Онкострахование, если есть обычные страховые компании?
+        </button>
+        <div class="panel">
+          <p>
+            Задача обычной страховой компании ограничивается покрытием расходов на лечение. 
+            Наша главная задача — организовать понятный, наиболее быстрый и результативный 
+            маршрут лечения и реабилитации, чтобы сохранить заболевшему драгоценное время. 
+            Мы связываем всех участников процесса в единую систему и выстраиваем между ними 
+            взаимодействие так, чтобы система работала как часы.
+          </p>
+        </div>
+        <button class="accordion">
+          Страховка оплатит лечение любого рака, даже самого редкого?
+        </button>
+        <div class="panel">
+          <p>
+          </p>
+        </div>
+        <button class="accordion">
+          Полис начинает действовать сразу после покупки?
+        </button>
+        <div class="panel">
+          <p>
+          </p>
+        </div>
+        <button class="accordion">
+          Какие расходы покрывает полис?
+        </button>
+        <div class="panel">
+          <p>
+          </p>
+        </div>
+        <button class="accordion">
+          Что делать, если суммы страхового возмещения не хватит на лечение?
+        </button>
+        <div class="panel">
+          <p>
+          </p>
+        </div>
+      </div>
+      <div class="answers__box">
+        
+        <div class="answers__box-content">
+          <p>
+            Не нашли ответ на свой вопрос? 
+          </p>
+          <div class="answers__box-btn">
+            <a href="">Напишите нам</a>
+          </div>
+        </div>
+        <img src="images/asver___figure.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="polis">
+  <div class="conteiner">
+    <div class="polis__wrapper">
+      <div class="answer__title limitation__title">
+      <h2>
+        Купить полис за 3 шага  
+      </h2>
+    </div>
+    </div>
+  </div>
+</section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>         
