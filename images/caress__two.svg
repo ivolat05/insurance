@@ -1,0 +1,46 @@
+<svg width="46" height="50" viewBox="0 0 46 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="-623" y="-798" width="1290" height="1764" rx="20" fill="#F8F8F8"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-623" y="-798" width="1290" height="1764">
+<rect x="-623" y="-798" width="1290" height="1764" rx="20" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+</g>
+<g filter="url(#filter0_d)">
+<rect x="-142" y="-17" width="330" height="146" rx="10" fill="white"/>
+</g>
+<circle cx="23" cy="25" r="22" fill="#D6E6FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.3653 6.28564H8.68133H4.6729H1.85547V37.8718C1.85547 39.4275 3.11633 40.6888 4.67247 40.6888C6.22861 40.6888 7.48947 39.4275 7.48947 37.8718V19.9241H8.68133V11.9201H12.3653C13.921 11.9201 15.1823 10.6588 15.1823 9.10264C15.1823 7.5465 13.921 6.28564 12.3653 6.28564Z" fill="#F4F3F5"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="5" width="16" height="37">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 5.42871H16.0415V41.546H1V5.42871Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.71429 7.143V37.872C2.71429 38.9529 3.59371 39.8319 4.67414 39.8319C5.755 39.8319 6.634 38.9529 6.634 37.872V19.0671H7.82629V11.0631H12.367C13.4479 11.0631 14.3273 10.1841 14.3273 9.10285C14.3273 8.02243 13.4479 7.143 12.367 7.143H2.71429ZM4.67414 41.5461C2.64829 41.5461 1 39.8983 1 37.872V5.42871H12.367C14.3933 5.42871 16.0416 7.077 16.0416 9.10285C16.0416 11.1296 14.3933 12.7774 12.367 12.7774H9.54057V20.7814H8.34829V37.872C8.34829 39.8983 6.70043 41.5461 4.67414 41.5461Z" fill="#F4F3F5"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.67414 41.5462C2.64786 41.5462 1 39.8979 1 37.8721H2.71429C2.71429 38.9525 3.59371 39.8319 4.67414 39.8319C5.75457 39.8319 6.634 38.9525 6.634 37.8721H8.34829C8.34829 39.8979 6.70043 41.5462 4.67414 41.5462Z" fill="#282D33"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.6589 11.6893C20.4061 10.3929 19.2652 9.41357 17.8955 9.41357H14.2111H10.2026H7.49278V37.872C7.49278 39.4277 6.23192 40.689 4.67578 40.689H39.3271C40.8832 40.689 42.1445 39.4277 42.1445 37.872V11.6893H20.6589Z" fill="white"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="4" y="8" width="40" height="34">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.67578 8.55664H43.0016V41.5464H4.67578V8.55664Z" fill="white"/>
+</mask>
+<g mask="url(#mask2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.7825 39.8321H39.3271C40.4079 39.8321 41.2874 38.9526 41.2874 37.8722V12.5466H19.9526L19.8176 11.8536C19.6389 10.9365 18.8302 10.2709 17.8955 10.2709H8.34992V37.8722C8.34992 38.5922 8.14207 39.2646 7.7825 39.8321ZM39.3271 41.5464H4.67578V39.8321C5.75621 39.8321 6.63564 38.9526 6.63564 37.8722V8.55664H17.8955C19.4028 8.55664 20.7352 9.47978 21.2919 10.8324H43.0016V37.8722C43.0016 39.8981 41.3529 41.5464 39.3271 41.5464Z" fill="#282D33"/>
+</g>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="1" y="5" width="42" height="37">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 41.5461H43V5.42871H1V41.5461Z" fill="white"/>
+</mask>
+<g mask="url(#mask3)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.14453 37.832H35.2872V36.1177H8.14453V37.832Z" fill="#282D33"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.2188 31.691H27.8542V17.1685H23.2188V31.691Z" fill="#00A1FA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.2734 26.7476H32.7964V22.1113H18.2734V26.7476Z" fill="#00A1FA"/>
+</g>
+<defs>
+<filter id="filter0_d" x="-147" y="-19" width="340" height="156" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="3"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0405376 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
