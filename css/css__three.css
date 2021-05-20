@@ -1,4 +1,16 @@
 /*-------------main__care---------*/
+.main__care {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: #002B3D;
+
+    text-align: center;
+
+}
+
 .main__care-wrapper {
     background: #F8F8F8;
     border-radius: 20px;
@@ -6,9 +18,359 @@
 }
 
 .main__wrapper-title {
-    width: 478px;
+    width: 480px;
     margin: 0 auto;
     padding: 200px 0 60px;
 }
 
+.main__title-title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 54px;
+    color: #282828;
+}
 
+.main__care-box {
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__box-inner {
+    width: 330px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.0405376);
+    border-radius: 10px;
+
+    padding: 18px 35px 21px 30px;
+
+    margin-bottom: 10px;
+}
+
+.main__text-text {
+    width: 655px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.main__care-list {
+    padding: 32px 0 40px;
+    background: url('../images/insurens__leftsvg.svg') no-repeat bottom 40px left 115px,
+            url('../images/insurens__right.svg') no-repeat bottom 40px right 90px;
+}
+
+
+
+.main__care-btn a {
+    width: 230px;
+    display: block;
+    margin: 0 auto ;
+
+    padding: 22px 32px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color:#fff;
+
+    background: #0098ED;
+    border-radius: 10px;
+
+}
+
+.main__care-btn a:hover {
+    background: #007DC2;
+}
+
+/*------------main__care media -------------*/
+
+
+
+/*------------deagnos--------------*/
+.deagnos {
+    font-family: 'Open Sans', sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #282828;
+
+    padding: 119px 0 68px;
+}
+
+.conteiner {}
+
+.deagnos__wrapper {
+    display: flex;
+}
+
+.deagnos__wrapper-img {}
+
+.deagnos__wrapper-box {
+    width: 590px;
+    margin-left: 64px;
+}
+
+.deagnos__box-title {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 41px;
+    color: #282828;
+
+    padding-bottom: 6px;
+}
+
+.deagnos__box-text {
+    font-size: 21px;
+    line-height: 32px;
+
+    padding-bottom: 31px;
+}
+
+.deagnos__box-list p,
+.pay__list-text {
+    padding-bottom: 15px;
+    color:#002B3D;
+}
+
+.deagnos__box-list li,
+.pay__box-list li {
+    list-style: disc;
+    color: #0098ED;
+    margin-left: 25px;
+}
+
+
+/*---------------paydiagnos---------*/
+.paydiagnos {
+    font-family: 'Open Sans', sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #282828;
+
+}
+
+
+.paydiagnos__wrapper {
+    padding-top: 41px;
+
+    background: #F8F8F8 url('../images/pay__back.svg') no-repeat right 0 bottom 100px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.pay__box {
+    margin: 0;
+}
+
+
+.pay__box-btn a{
+    display: block;
+    width: 261px;
+    background: #0098ED;
+    border-radius: 10px;
+    padding: 22px 32px;
+
+    color: #fff;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    margin-top: 44px;
+
+    transition: .4s;
+}
+
+.pay__box-btn .fa-arrow-circle-right {
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+    left: 17px;
+}
+
+.pay__box-btn a:hover {
+    background: #007DC2;
+}
+
+/*------------psucho-----------*/
+
+.psycho {
+    padding: 111px 0 140px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #282828;
+}
+
+.psycho__box {
+    display: flex;
+    justify-content: center;
+}
+
+.psycho__title {
+    font-family: 'Merriweather',  serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 58px;
+    color: #282828;
+
+    padding-bottom: 31px;
+}
+
+.psycho__box-text {
+    width: 800px;
+    text-align: center;
+    padding:53px 90px 57px;
+    background: url('../images/psycho.jpg') no-repeat right 0 bottom 0, 
+    #F8F8F8 url('../images/psycho__left.jpg') no-repeat left 0 bottom 0;
+    border-radius: 19px;
+
+    margin-right: 55px;
+}
+
+
+.psycho__inner-img {
+    padding: 17px 0;
+}
+
+.psycho__inner-title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+
+    padding-left: 15px;
+}
+
+.psycho__inner-text {
+    padding-left: 15px;
+}
+
+
+
+/*------------partnes---------*/
+.partners {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #002B3D;
+}
+
+
+.partners__conteiners {
+    width: 1180px;
+}
+
+.partners__title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 58px;
+    color: #002B3D;
+
+    padding-bottom: 25px;
+    border-bottom: 2px solid #B8D1FD;
+    margin-bottom: 39px;
+}
+
+
+
+.partners__slaider-box {
+    width: 580px;
+
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 20px;
+    padding: 29px 35px 55px 45px;
+
+    margin: 0 15px;
+}
+
+.partner__box-clinic {
+    width: 392px;
+}
+
+.partner__box-fond {
+    width: 380px;
+}
+
+.partners__conteiner-slaider {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 84px;
+}
+
+.partners__box-title {
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 34px;
+}
+
+
+.partners__conteiner-title {
+    padding-bottom: 19px;
+
+    font-family: 'Merriweather',    serif;
+
+    font-style: italic;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.partners__slider .slick-list {
+    padding: 0 10% 0 0;
+}
+
+
+.partners__slider .slick-prev {
+    position: relative;
+    top: -24px;
+    left: 84%;
+    background: #fff;
+    color: #169FED;
+
+    padding: 17px 23px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    
+}
+.partners__slider .slick-next {
+    position: relative;
+    bottom: 394px;
+    left: 90%;
+    background: #fff;
+    color: #169FED;
+
+    padding: 17px 23px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+.partners__slider .slick-next:hover,
+.partners__slider .slick-prev:hover {
+    color: #fff;
+    background: #007DC2;
+}
