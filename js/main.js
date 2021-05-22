@@ -3,7 +3,7 @@ $(function(){
         $('.menu__burger').toggleClass('burger__active'),
             $('.menu').toggleClass('menu__active'),
         $('.header__inner').toggleClass('header__inner-active'),
-            $('.main__box-conteiner').toggleClass('main__box-active')
+            $('.main').toggleClass('main__box-active')
     });
 
 
@@ -94,27 +94,28 @@ $(function(){
     });
 
     // slaider
-  
-      $('.partners__slider').slick({
-          slidesToShow: 3,
-          prevArrow: '<button class="slick-btn slick-prev"><i class="fas fa-chevron-left"></i></button>',
+
+    
+
+    $('.partners__slider').slick({
+        slidesToShow: 3,
+            prevArrow: '<button class="slick-btn slick-prev"><i class="fas fa-chevron-left"></i></button>',
             nextArrow: '<button class="slick-btn slick-next"><i class="fas fa-chevron-right"></i></button>',
-                      responsive: [
+                        responsive: [
                         {
-                          breakpoint: 768,
-                          settings: {                            
+                            breakpoint: 768,
+                            settings: {                            
                             slidesToShow: 3
-                          }
+                            }
                         },
                         {
-                          breakpoint: 480,
-                          settings: {
+                            breakpoint: 480,
+                            settings: {
                             arrows: false,
-                           
                             slidesToShow: 1
-                          }
+                            }
                         }
-                      ]
+                        ]
                     });
     
 });
