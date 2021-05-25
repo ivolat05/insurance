@@ -3,7 +3,12 @@ $(function(){
         $('.menu__burger').toggleClass('burger__active'),
             $('.menu').toggleClass('menu__active'),
         $('.header__inner').toggleClass('header__inner-active'),
-            $('.main').toggleClass('main__box-active')
+            $('.main').toggleClass('main__box-active'),
+            $('.useful__title').toggleClass('main__box-active'),
+            $('.main__inner-link').toggleClass('main__box-active'),
+            $('.useful__conteiner').toggleClass('main__box-active'),
+            $('.corp').toggleClass('main__box-active'),
+            $('.main__care').toggleClass('main__box-active')
     });
 
 
@@ -103,19 +108,22 @@ $(function(){
             nextArrow: '<button class="slick-btn slick-next"><i class="fas fa-chevron-right"></i></button>',
                         responsive: [
                         {
-                            breakpoint: 768,
+                            breakpoint: 1040,
                             settings: {                            
-                            slidesToShow: 3
+                            slidesToShow: 2
                             }
                         },
                         {
-                            breakpoint: 480,
+                            breakpoint: 740,
                             settings: {
                             arrows: false,
                             slidesToShow: 1
                             }
-                        }
+                            }
+                        
                         ]
-                    });
+    });
+    
+    
     
 });
