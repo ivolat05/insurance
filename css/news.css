@@ -215,13 +215,15 @@
 }
 
 @media(max-width: 1050px) {
-       
-
-    .useful__img-mobl h1 {
-        text-align: center;
-        margin: 0 auto;
+    .active__mobail {
+        position: relative;
+        padding-top:48%;
     }
-   
+
+    .active__mobail-img img{
+        position: absolute;
+        top: 0;
+    }
     .useful__img-mobl img {
         width: 100%;
         display: block;
@@ -230,11 +232,7 @@
 }
 
 @media(max-width: 805px) {
-     .record__active {
-         background: #f3e9e9;
-         padding: 5px;
-     }
-
+   
     .artikles__wrapper {
         display: block;
     }
@@ -267,8 +265,7 @@
     }
 
     .useful__img-mobl h1 {
-        text-align: center;
-        margin: 0 auto;
+       
 
         font-size: 27px;
         line-height: 23px;
