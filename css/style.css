@@ -292,7 +292,7 @@ li {
         display: block;
         z-index: 33333;
         position: relative;
-        padding-right: 15px;
+        padding-right: 7px;
     }
 
     .logo {
@@ -2884,9 +2884,8 @@ input::placeholder {
     margin-bottom: 50px;
 }
 
-
-
-.services__wrapp-inner-btn:hover {
+.services__wrapp-btn:hover,
+.services__wrapp-link-btn:hover {
     background: #007DC2;
     color: #fff;
 }

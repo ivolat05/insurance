@@ -201,6 +201,7 @@
 /*---------------media artikle---------*/
 
 @media(max-width: 1195px) {
+  
     .main__blog {
         background: #F8F8F8;
     }
@@ -217,9 +218,17 @@
 @media(max-width: 1050px) {
     .active__mobail {
         position: relative;
-        padding-top:48%;
+        padding-top:45%;
+        
     }
 
+    .main__news {
+        background: #F8F8F8;
+    }
+
+   .main__news-conteiner {
+       padding: 0 25px;
+   }
     .active__mobail-img img{
         position: absolute;
         top: 0;
@@ -488,6 +497,10 @@
         display: none;
     }
 
+    .optimail-img img {
+        width: 90%;
+    }
+
     .useful__title {
         width: 100%;
         
@@ -520,5 +533,13 @@
     .useful__footer {
         font-size: 15px;
         line-height: 18px;
+    }
+
+    .useful__content-title h3 {
+        font-size: 39px;
+        line-height: 43px;
+    }
+    .usefu__img img {
+        width: 90%;
     }
 }
